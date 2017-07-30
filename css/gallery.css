@@ -17,8 +17,6 @@ nav
     align-items:center;
     align-content: space-around;
     
-    border-bottom-color: #292931;
-    
     box-sizing: border-box; 
     padding-right: 7%;
 }
@@ -53,7 +51,7 @@ nav
             color: #292931; 
             font-family: 'Raleway', sans-serif;
         }
-
+   
 #content
 {
     width: 80%; height: 80%;
@@ -70,12 +68,13 @@ nav
 
     #a1
     {   
+        width: 195%; 
         flex: 1;
     }
 
         #b11
         {
-            width: 100%; height: 50%;
+            width: 100%; height: 55%;
             display: flex;
             justify-content: flex-start; 
             align-items: flex-start;
@@ -95,155 +94,71 @@ nav
 
         #b12
         {
-            width: 100%; height: 50%;
+            width: 100%; height: 45%;
             display: flex;
-            justify-content: flex-end; 
-            align-items: center;
-        }   
-
-            .detalbox03
-            {
-                width: 70%; height: 90%;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                
-                text-align: justify;
-            }
-                    
-            .detalbox04
-            {
-                width: 3%; height: 90%;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
+            align-items: flex-end;
+            justify-content: flex-end;
+            align-self: center;
             
-                text-align: justify;
-            }
-
-
-            img
-            {
-              width: 100%; height: 100%;  
-            }
-
-
-
- 
-    #a2
-    {
-        flex: 1;
-    }
-
-        #b2
-        {
-            width: 100%; height: 50%;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
+            box-sizing: border-box; 
+            padding-right: 8%;
         }   
 
-               
-            .detalbox11
-            {
-                width: 15%; height: 100%;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                
-                text-align: justify;
-            }
-                    
-            .detalbox12
-            {
-                width: 70%; height: 90%;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                
-                text-align: justify;
-
-            }
-                
-        #b3
+        #a2
         {
-            width: 100%; height: 50%;
+            width: 95%; 
+            flex: 1;
+            
             display: flex;
-            justify-content: flex-start; 
+            flex-wrap: wrap;
             align-items: center;
+            justify-content: center;
         }
-                
-            .detalbox2
-            {
-                width: 28%; height: 90%;
-                display: flex;
-                align-items: center;
-            
-                text-align: justify;
-            }
+             #b2
+                {
+                    width: 100%; height: 55%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    align-content: center;
+                }   
+
+                #b3
+                {
+                    width: 100%; height: 45%;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    align-content:center;
+                }
                     
-            .detalbox20
-            {
-                width: 3%; height: 90%;
-                display: flex;
-                align-items: center;
-                
-                text-align: justify;
+              
 
-            }
-            
-            .detalbox3
-            {
-                width: 28%; height: 90%;
-                display: flex;
-                align-items: center;
-                
-                text-align: justify;
-            }
-            
-            
-            .detalbox30
-            {
-                width: 3%; height: 90%;
-                display: flex;
-                align-items: center;
-                
-                text-align: justify;
-
-            }
-            
-            
-            .detalbox4
-            {
-                width: 28%; height: 90%;
-                display: flex;
-                align-items: center;
-                
-                text-align: justify;
-            }
+                      .detalbox03,  .detalbox3, .detalbox12
+                        {
+                            display: flex;
+                        }
+                      
             
 footer
 {
     width: 100%; height: 10%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
 }
  
 
 #stopa
 {
-    width: 100%; height:100%;
     margin:0; padding: 0;
-    display: flex;
-    justify-content:flex-end;
-    align-items:center;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 #stopa:hover
 {
     color: #ffffff;
-    font-weight: bold;     
 }
-
 
 
 /*

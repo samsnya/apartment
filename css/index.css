@@ -12,6 +12,7 @@ body
 {
     background-image:url("../img/INX07s.jpg");
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +22,7 @@ body
     {
         width: 70%; height: 70%;
         
-        border:solid 12px #006b4f;
+        border:solid 0.7em #006b4f;
         
         display: flex;
         justify-content: center;
@@ -35,7 +36,7 @@ body
             color: #006b4f;
             
             text-align: center;
-            font-size: 60px;
+            
             
             display: flex;
             flex-direction: column;
@@ -46,6 +47,7 @@ body
             #p5
             {
                 font-family: 'Raleway', sans-serif;
+                font-size: 4em;
                 margin: 0; padding: 0;
             }
          
@@ -53,7 +55,7 @@ body
             #p3
             {
                 font-family: 'Archivo Black', sans-serif;
-                font-size: 95px;
+                font-size: 6.4em;
                 margin: 0; padding: 0;
             }
               
@@ -69,3 +71,31 @@ font-family: 'Archivo Black', sans-serif;
 font-family: 'Sacramento', cursive;
 font-family: 'Limelight', cursive;
 */
+
+@media only screen and (min-width:699px)
+{
+   
+section
+ 	  {
+  	  flex-direction:row;
+ 	  flex-wrap:wrap;
+  	  justify-content:space-around;
+  }
+   #p5, #p3
+  {
+    height: 90%;
+  }
+ }
+
+
+@media only screen and (min-width:480px)
+{
+  section
+  {
+    flex-direction:row;
+  }
+  #p5, #p3
+  {
+    height:90%;
+  }
+}
