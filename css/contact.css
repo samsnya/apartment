@@ -10,29 +10,30 @@ html, body
 
 body
 {
-    background-image:url("../img/CON06.jpg");
+    background-image: url("../img/CON06.jpg");
     background-size: cover;
+    
 }
 
 nav
-    {
-        width: 100%; height: 10%;
-        display: flex;
-        text-align: center;
-        justify-content:flex-end; 
-        align-items:center;
-        align-content: space-around;
-        
-        box-sizing: border-box; 
-        padding-right: 7%;
-        
-        background-color:rgba(213, 222, 238, 0.9);
-    }
+{
+    width: 100%; height: 10%;
+    display: flex;
+    text-align: center;
+    justify-content:flex-end; 
+    align-items:center;
+    align-content: space-around;
     
-       .a2, .a0, a
+    box-sizing: border-box; 
+    padding-right: 7%;
+    
+    background-color:rgba(213, 222, 238, 0.9);   
+}
+
+        .a2, .a0, a
         {
-            padding: 4%;
-            
+            padding: 2% 4% 2% 4%;
+            box-sizing: border-box; 
             text-decoration: none;
             color: #292931;
             font-family: 'Raleway', sans-serif;
@@ -60,29 +61,17 @@ nav
             font-family: 'Raleway', sans-serif;
         }
         
-        .a3:hover
-        {
-             color: #59233a;
-              
-             
-        }
 
-#content
+section
 {
-    width: 80%; height: 90%;
+    width: 80%; height: 80%;
     margin: auto;
+    display: flex;
 }
-    
-    
-    section
-    {
-        width: 100%; height: 90%;
-        display: flex;
-    }
+
 
         #a1
         {
-            flex:1;
             width: 100%;   height: 100%;
             display: flex;
             align-items: center;
@@ -91,7 +80,7 @@ nav
             
             #ba10
             {
-                width: 75%;    height: 50%;
+                width: 90%;    height: 50%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -108,7 +97,7 @@ nav
 
                 #aa0
                 {
-                     width: 70%; height: 70%;
+                    width: 70%; height: 70%;
             
                     border:solid 0.3em #006b4f;
             
@@ -117,8 +106,7 @@ nav
                     align-items: center;
                     
                     text-decoration: none;
-                    color: #006b4f;
-                
+                    
                     text-align: center;
                
                     display: flex;
@@ -129,12 +117,14 @@ nav
                     {
                         font-family: 'Raleway', sans-serif;
                         font-size: 1.5em;
+                        color: #006b4f;
                     }
                     
                     .p4
                     {
                         font-family: 'Archivo Black', sans-serif;
                         font-size: 2.4em;
+                        color: #006b4f;
                     }
 
                 p
@@ -146,59 +136,64 @@ nav
 
         #a2
         {
-           flex:1;
-           display: flex;
-           align-items: center;
-           justify-content: flex-start;
+            width: 100%;   height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
         }
 
             #ba20
-            {
-                width: 75%;    height: 50%;
+             {
+                width: 90%;    height: 50%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin-left: 1%;
+                margin-left:1%;
+                    
+                align-self: center;
                 
                 /*border:solid 1px #292931;*/
                 box-sizing: border-box; 
-
-                background-color:rgba(213, 222, 238, 0.7);
+                
+                background-color: rgba(213, 222, 238, 0.7);
             }
+            
+            #aa1
+                 {
+                    width: 70%; height: 70%;
+            
+                    border:solid 0.3em #292931;
+            
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     
-                .p1
-                {
-                    font-size: 2.4em;
-                    font-family: 'Archivo Black', sans-serif;
-                    padding: 5%;
+                    text-decoration: none;
+                 ;
+               
+                    display: flex;
+                    flex-direction: column;
                 }
-                
-         
-                
-                .p2, .p3
-                {
-                    padding:1%;
-                    font-size: 1.4em; 
                     
-                }
-                
-                .p2
-                {
-                    font-weight: bold;
-                }
-                
-                    #email
+                    .p1
                     {
-                        font-size: 1.0em;
-                        text-decoration: underline;
-                        color: #00523d;
+                        font-size: 2.4em;
+                        font-family: 'Archivo Black', sans-serif;
                     }
-
+                    
+                    .p3
+                    {
+                      text-decoration: underline;
+                      font-size: 0.91em;
+                    }
+                    
+                    
 
 footer
 {
-    width: 100%; height: 10%;
+    width: 80%; height: 10%;
+    margin: auto;
     display: flex;
     justify-content:flex-end;
     align-items: center;
@@ -209,7 +204,6 @@ footer
 {
     margin:0; padding: 0;
     font-size: 0.8em;
-   
 }
 
 #stopa:hover
@@ -227,3 +221,71 @@ font-family: 'Archivo Black', sans-serif;
 font-family: 'Sacramento', cursive;
 font-family: 'Limelight', cursive;
 */
+
+ @media only screen and (max-width: 1000px)
+ {
+         
+                 html, body
+            {
+                height: 100%;
+                
+           }
+                nav
+               {
+                height: 10%;
+               
+                padding-right: 0;
+                display: flex;
+                justify-content:center;
+                padding-bottom: 10%;
+                padding-top: 10%;
+                box-sizing: border-box; 
+               }
+              
+               section 
+                {
+                    height: 75%;
+                    display: block;
+                   
+                    box-sizing: border-box; 
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    
+                }
+
+                #a1, #a2
+                {
+                    width: 100%; height: 40%;
+                    margin: 0; padding: 0;
+                }
+                
+               
+                 #ba10, #ba20
+                 {
+                    width: 80%; height: 90%;
+                    display: block;
+                    display: flex;
+                    flex:1;
+                    justify-content: center;
+                    
+                    margin: 0; padding: 0;
+                 }
+                 
+                 #aa0, #aa1
+                 {
+                       width: 80%; height: 60%;
+                       font-size: 70%;
+                 }
+                   
+                   footer
+                {
+                    height: 10%;
+                    display: flex;
+                    justify-content:center;
+                    box-sizing: border-box; 
+                    padding: 5%;
+                }
+                
+            }

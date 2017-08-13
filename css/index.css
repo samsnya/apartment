@@ -72,30 +72,43 @@ font-family: 'Sacramento', cursive;
 font-family: 'Limelight', cursive;
 */
 
-@media only screen and (min-width:699px)
-{
+
+ @media only screen and (max-width: 1000px)
+            
+            {
+                 
+               nav
+               {
+                height: 10%;
+                box-sizing: border-box; 
+                padding-right: 0;
+                display: flex;
+                justify-content:center;
+                padding-bottom: 5%;
+                padding-top: 5%;
+               }
    
-section
- 	  {
-  	  flex-direction:row;
- 	  flex-wrap:wrap;
-  	  justify-content:space-around;
-  }
-   #p5, #p3
-  {
-    height: 90%;
-  }
- }
-
-
-@media only screen and (min-width:480px)
-{
-  section
-  {
-    flex-direction:row;
-  }
-  #p5, #p3
-  {
-    height:90%;
-  }
-}
+                section 
+                {
+                    display: block;
+                   
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+               
+                    width: 70%;
+                    border:solid 0.3em #006b4f;
+                    
+                }
+                
+            #p5
+            {
+                font-size: 1.2em;
+            }
+         
+                
+            #p3
+            {
+                font-size: 1.9em;
+            }
+                }
