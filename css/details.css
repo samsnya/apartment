@@ -253,34 +253,26 @@ font-family: 'Sacramento', cursive;
 font-family: 'Limelight', cursive;
 */
 
-
- @media only screen and (max-width: 1000px)
-            
-            {
-   
-            html, body
-            {
-                height: auto;
-              
-            }
-               
-               nav
-               {
-                
-                box-sizing: border-box; 
-                padding-right: 0;
-                display: flex;
-                justify-content:center;
-                padding-bottom: 4%;
-                padding-top: 4%;
-               }
-               
-               
-                section 
-                {
-                    display: block;
-                    padding-top: 10%;
-                }
+@media only screen and (max-width: 1000px)
+{
+html, body
+{
+height: auto;
+}
+nav
+{
+box-sizing: border-box; 
+padding-right: 0;
+display: flex;
+justify-content:center;
+padding-bottom: 5%;
+padding-top: 5%;
+}
+section 
+{
+display: block;
+padding-top: 10%;
+}
 
                 #a1, #a2
                 {
